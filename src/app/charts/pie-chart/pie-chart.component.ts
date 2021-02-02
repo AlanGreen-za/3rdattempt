@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, } from '@angular/core';
 
 @Component({
   selector: 'app-pie-chart',
@@ -8,6 +8,17 @@ import { Component, OnInit } from '@angular/core';
 export class PieChartComponent implements OnInit {
 
   constructor() { }
+
+  pieChartData: number[] = [350, 450, 120];
+  pieChartLabels: string[] = ['Alan Motors', 'Justin Autos', 'Tonys Wheels'];
+  colors: any[] = [
+    {
+      backgroundColor: ['#25647c', '#ff6b6b', '#ffd166'],
+      borderColor: '#111'
+    }
+  ];
+
+  pieChartType = 'doughnut';
 
   ngOnInit(): void {
   }
