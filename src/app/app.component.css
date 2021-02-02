@@ -1,7 +1,6 @@
 #sideBar{
     height: 100vh;
-    padding-top: 100px;
-    line-height: 40px;
+    padding-top: 80px;
     position: fixed;
     background-color: #191F26;
 }
@@ -11,6 +10,6 @@
 }
 
 #navbar{
-    background-color: #161A1E!important;
+    background-color: hsl(36, 18%, 16%)!important;
     box-shadow: 0 3px 6px rgba(0,0,0,0.2), 0 3px 6px rgba(0,0,0,0.25)
 }
