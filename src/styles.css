@@ -43,8 +43,14 @@ a:hover {
     background-color: #eee;
     border-top-right-radius: 8px;
     border-top-left-radius: 8px;
-    padding: 12px;
+    padding: 112px;
 }
+
+/*
+.card-deck {
+    width: 500px;
+}
+*/
 
 .card-body-theme {
     background-color: #494F56;

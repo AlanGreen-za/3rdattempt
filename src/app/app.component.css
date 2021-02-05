@@ -1,6 +1,8 @@
 #sideBar{
     height: 100vh;
-    padding-top: 80px;
+    padding-top: 100px;
+    padding-left: 25px;
+    line-height: 50px;
     position: fixed;
     background-color: #191F26;
 }

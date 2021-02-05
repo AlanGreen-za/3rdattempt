@@ -2,13 +2,12 @@ import { Component, OnInit } from '@angular/core';
 import { LINE_CHART_COLORS } from '../../shared/chart.colors';
 
 const LINE_CHART_SAMPLE_DATA: any[] = [
-  {data: [4, 8, 3, 5, 7, 4], label: 'DMS PRO'},
-  {data: [2, 3, 4, 0, 4, 2], label: 'DMS ACCOUNTING'},
-  {data: [3, 1, 1, 2, 3, 5], label: 'WEBMASTER'},
+  {data: [41, 81, 31, 51, 71, 41], label: 'DMS PRO'},
+  {data: [21, 31, 41, 10, 41, 21], label: 'DMS ACCOUNTING'},
+  {data: [31, 11, 11, 21, 31, 51], label: 'WEBMASTER'},
 ];
 
 const LINE_CHART_LABELS: string[] = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun'];
-
 
 
 @Component({
